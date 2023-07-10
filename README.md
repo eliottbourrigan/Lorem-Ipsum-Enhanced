@@ -1,4 +1,4 @@
-Créons ensemble un programme #Python et #Numpy qui permet de générer du texte qui ressemble à du français. Pour ça, je vais m'appuyer sur le concept de [[Chaînes de Markov]].
+Créons ensemble un programme Python et Numpy qui permet de générer du texte qui ressemble à du français. Pour ça, je vais m'appuyer sur le concept de Chaînes de Markov.
 
 On commence par charger un texte qui nous servira de base de données. Ici on va utiliser [Le rouge et le noir](https://archive.org/stream/lerougeetlenoir0000sten/lerougeetlenoir0000sten_djvu.txt) de Stendhal, qui est disponible en téléchargement gratuit. Après avoir téléchargé le contenu du livre en `txt`, on peut le charger dans notre programme Python, et commencer par supprimer tous les retours à la ligne et caractères spéciaux, ainsi que de mettre toutes les lettres en minuscules :
 
